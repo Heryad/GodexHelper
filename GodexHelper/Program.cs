@@ -62,6 +62,7 @@ namespace GodexHelper
                 { "{BATTERY}", GetArgument(arguments, "battery", "") },
                 { "{PORT}", GetArgument(arguments, "port", "") },
                 { "{IMEI}", GetArgument(arguments, "imei", "") },
+                { "{SERIAL_NUMBER}", GetArgument(arguments, "serialnumber", "") },
                 { "{DATE}", GetArgument(arguments, "date", DateTime.Now.ToString("dd/MM/yyyy")) }
             };
 
